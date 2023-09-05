@@ -1,0 +1,6 @@
+rootProject.name = 'netology-webinars'
+include 'io'
+include 'jvm'
+include 'network'
+include 'unit-tests'
+
