@@ -5,6 +5,7 @@ import com.netology.entity.Employee;
 
 import java.io.*;
 
+//homework: https://github.com/netology-code/jd-homeworks/tree/master/special_files
 public class JsonExamples {
     public static void main(String[] args) {
         read();
