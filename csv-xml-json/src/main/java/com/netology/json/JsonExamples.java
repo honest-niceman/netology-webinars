@@ -33,7 +33,7 @@ public class JsonExamples {
         employee.setId(112L);
 
         GsonBuilder gsonBuilder = new GsonBuilder();
-        Gson gson = gsonBuilder/*.setPrettyPrinting()*/.create();
+        Gson gson = gsonBuilder.setPrettyPrinting().create();
         String json = gson.toJson(employee);
 
         try (FileWriter fileWriter = new FileWriter("csv-xml-json/src/main/resources/json/gson-data.json")) {
