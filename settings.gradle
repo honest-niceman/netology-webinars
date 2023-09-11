@@ -3,4 +3,5 @@ include 'io'
 include 'jvm'
 include 'network'
 include 'unit-tests'
+include 'csv-xml-json'
 

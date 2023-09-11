@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<student lastName="Vlasov">
+    <subject mark="3" title="Math"/>
+    <subject mark="5" title="Physics"/>
+    <subject mark="4" title="Philosophy"/>
+    <average>3.0</average>
+</student>

@@ -1,0 +1,13 @@
+{
+  "firstName": "Ivan",
+  "lastName": "Ivanov",
+  "address": {
+    "addressLine": "Building, 12",
+    "city": "London",
+    "postalCode": 1021210
+  },
+  "phoneNumbers": [
+    "89967327",
+    "89967322"
+  ]
+}
