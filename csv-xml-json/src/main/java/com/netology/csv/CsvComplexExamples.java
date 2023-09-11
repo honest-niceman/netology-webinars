@@ -18,8 +18,11 @@ public class CsvComplexExamples {
 
 
     public static void main(String[] args) {
+        System.out.println("=== readToObjects() ===");
         List<Employee> employees = readToObjects();
+        System.out.println("=== writeObjects() ===");
         writeObjects(employees);
+        System.out.println("=== writerWithStrategy() ===");
         writerWithStrategy(employees);
     }
 

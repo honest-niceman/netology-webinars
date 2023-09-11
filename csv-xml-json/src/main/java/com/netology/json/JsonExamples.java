@@ -8,9 +8,13 @@ import java.io.*;
 //homework: https://github.com/netology-code/jd-homeworks/tree/master/special_files
 public class JsonExamples {
     public static void main(String[] args) {
+        System.out.println("=== read() ===");
         read();
+        System.out.println("=== write() ===");
         write();
+        System.out.println("=== gsonWrite() ===");
         gsonWrite();
+        System.out.println("=== gsonRead() ===");
         gsonRead();
     }
 
