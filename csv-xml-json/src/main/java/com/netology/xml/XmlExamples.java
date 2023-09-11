@@ -13,6 +13,10 @@ import java.io.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/*
+Задача приложения заключается в проверке значения средней оценки и его коррекции,
+если в исходном документе оно не соответствует действительности.
+ */
 public class XmlExamples {
 
     public static final String INPUT_PATH = "csv-xml-json/src/main/resources/xml/input.xml";
