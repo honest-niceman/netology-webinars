@@ -30,7 +30,8 @@ public class CsvSimpleExamples {
                 .withSeparator('|')
                 .build();
 
-        try (CSVReader csvReader = new CSVReaderBuilder(new FileReader("csv-xml-json/src/main/resources/csv/all-staff-separated.csv"))
+        try (CSVReader csvReader = new CSVReaderBuilder(
+                new FileReader("csv-xml-json/src/main/resources/csv/all-staff-separated.csv"))
                 .withCSVParser(csvParser)
                 .build()
         ) {
@@ -43,7 +44,9 @@ public class CsvSimpleExamples {
 
     private static void append() {
         var employee = "1,New,Employee,USA,1".split(",");
-        try (CSVWriter csvWriter = new CSVWriter(new FileWriter("csv-xml-json/src/main/resources/csv/all-staff.csv", true))) {
+        try (CSVWriter csvWriter = new CSVWriter(new FileWriter
+                ("csv-xml-json/src/main/resources/csv/all-staff.csv", true))
+        ) {
             csvWriter.writeNext(employee);
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -60,7 +63,9 @@ public class CsvSimpleExamples {
     }
 
     private static void read() {
-        try (CSVReader csvReader = new CSVReader(new FileReader("csv-xml-json/src/main/resources/csv/staff.csv"))) {
+        try (CSVReader csvReader = new CSVReader(
+                new FileReader("csv-xml-json/src/main/resources/csv/staff.csv"))
+        ) {
             String[] nextLine;
             while ((nextLine = csvReader.readNext()) != null) {
                 System.out.println(Arrays.toString(nextLine));
@@ -72,7 +77,9 @@ public class CsvSimpleExamples {
 
     private static void write() {
         var employee = "1,David,Miller,Australia,30".split(",");
-        try (CSVWriter csvWriter = new CSVWriter(new FileWriter("csv-xml-json/src/main/resources/csv/staff.csv"))) {
+        try (CSVWriter csvWriter = new CSVWriter(
+                new FileWriter("csv-xml-json/src/main/resources/csv/staff.csv"))
+        ) {
             csvWriter.writeNext(employee);
         } catch (IOException e) {
             System.out.println(e.getMessage());
