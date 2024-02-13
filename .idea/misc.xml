@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -11,8 +10,15 @@
         <option value="$PROJECT_DIR$/di/java1/beans/pom.xml" />
         <option value="$PROJECT_DIR$/di/java2/beans/pom.xml" />
         <option value="$PROJECT_DIR$/di/xml/beans/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/02_forms/forms/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/04_serlvets/servlets/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/06_rest/rest/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/06_rest/adhoc/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/05_di/java1/beans/pom.xml" />
+        <option value="$PROJECT_DIR$/jspr/01_web/http-server/pom.xml" />
       </list>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="liberica-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

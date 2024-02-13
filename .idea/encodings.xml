@@ -9,5 +9,17 @@
     <file url="file://$PROJECT_DIR$/di/java2/beans/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/di/xml/beans/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/di/xml/beans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/01_web/http-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/01_web/http-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/02_forms/forms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/02_forms/forms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/04_serlvets/servlets/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/04_serlvets/servlets/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/05_di/java1/beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/05_di/java1/beans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/06_rest/adhoc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/06_rest/adhoc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/06_rest/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspr/06_rest/rest/src/main/resources" charset="UTF-8" />
   </component>
 </project>

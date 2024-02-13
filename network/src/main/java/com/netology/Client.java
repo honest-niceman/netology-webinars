@@ -14,7 +14,7 @@ public class Client {
         try (Socket clientSocket = new Socket("localhost", Server.LOCALHOST_PORT);
              PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true);
              BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
-            writer.println("Georgii");
+            writer.println("Hello from Ivan!");
             System.out.println(reader.readLine());
         } catch (IOException e) {
             throw new RuntimeException(e);

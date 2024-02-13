@@ -13,10 +13,10 @@ public class Main {
     public static final String LARGE_FILE_COPY = "java_copy.pdf";
 
     public static void main(String[] args) {
-        byteBasedIOStreams();
-        differenceInTime();
-        characterBasedIOStreams();
-        zips();
+//        byteBasedIOStreams();
+//        differenceInTime();
+//        characterBasedIOStreams();
+//        zips();
         serialization();
     }
 
@@ -63,8 +63,11 @@ public class Main {
     public static void characterBasedIOStreams() {
         fileWriter();
         fileReader();
+        File file = new File(FILE_NAME);
+        if (file.delete()) System.out.println("File was deleted.");
         bufferedFileWriter();
         bufferedFileReader();
+        if (file.delete()) System.out.println("File was deleted.");
     }
 
     public static void byteBasedIOStreams() {
@@ -74,6 +77,7 @@ public class Main {
         if (file.delete()) System.out.println("File was deleted.");
         outputExampleAfterJava7();
         inputExampleAfterJava7();
+        if (file.delete()) System.out.println("File was deleted.");
     }
 
     public static void differenceInTime() {

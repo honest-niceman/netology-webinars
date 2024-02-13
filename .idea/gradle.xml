@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/csv-xml-json" />
             <option value="$PROJECT_DIR$/io" />
             <option value="$PROJECT_DIR$/jvm" />
+            <option value="$PROJECT_DIR$/mockito" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/unit-tests" />
           </set>

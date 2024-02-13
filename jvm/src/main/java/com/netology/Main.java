@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+//https://github.com/netology-code/jd-homeworks/tree/master/jvm
 public class Main {
 
     public static void main(String[] args) {
-        simpleGarbageCollection();
+//        simpleGarbageCollection();
         outOfMemoryExample();
     }
 

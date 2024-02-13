@@ -11,18 +11,18 @@ import java.util.Arrays;
 
 public class CsvSimpleExamples {
     public static void main(String[] args) {
-        System.out.println("=== write() ===");
-        write();
-        System.out.println("=== read() ===");
-        read();
-        System.out.println("=== readAll() ===");
-        readAll();
-        System.out.println("=== append() ===");
-        append();
-        System.out.println("=== readAll() ===");
-        readAll();
-        System.out.println("=== customSeparator() ===");
-        customSeparator();
+//        System.out.println("=== write() ===");
+//        write();
+//        System.out.println("=== read() ===");
+//        read();
+//        System.out.println("=== readAll() ===");
+//        readAll();
+//        System.out.println("=== append() ===");
+//        append();
+/*        System.out.println("=== readAll() ===");
+        readAll();*/
+//        System.out.println("=== customSeparator() ===");
+//        customSeparator();
     }
 
     private static void customSeparator() {

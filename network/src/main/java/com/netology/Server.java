@@ -7,6 +7,8 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+
+//https://github.com/netology-code/jd-homeworks/blob/master/network/README.md
 public class Server {
     public static final Integer LOCALHOST_PORT = 8080;
 
@@ -21,7 +23,6 @@ public class Server {
 //                serverSocket.close();
 //            }
 //        }
-
         try (ServerSocket serverSocket = new ServerSocket(LOCALHOST_PORT)) {
             System.out.println("Сервер стартовал");
             while (true) {
